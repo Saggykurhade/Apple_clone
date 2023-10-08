@@ -1,26 +1,31 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './header.css';
+import './apple.css';
 
 const Header = () => {
     return (
-        <div>
-            <div id='navbar'>
-            <i class="fa-brands fa-apple"></i>
-            <ul>
-                <li>Store</li>
-                <li>Mac</li>
-                <li>iPad</li>
-                <li>iPhone</li>
-                <li>Watch</li>
-                <li>AirPods</li>
-                <li>TV & Home</li>
-                <li>Entertainment</li>
-                <li>Accessories</li>
-                <li>Support</li>
-            </ul>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-bag-shopping"></i>
+        <div id='navbar'>
+            <div id='nav-top'>
+                <div className='apple-logo'>
+                    <i class="fa-brands fa-apple"></i>
+                </div>
+                <div className='middle-row'>
+                    <p>Store</p>
+                    <p>Mac</p>
+                    <p>iPad</p>
+                    <p>iPhone</p>
+                    <p>Watch</p>
+                    <p>AirPods</p>
+                    <p>TV & Home</p>
+                    <p>Entertainment</p>
+                    <p>Accessories</p>
+                    <p>Support</p>
+                    <p></p>
+                </div>
+                <div className='mg-b'>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
             </div>
         </div>
     )
