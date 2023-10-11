@@ -1,5 +1,5 @@
 import React from 'react';
-import './apple.css';
+import './footer.css';
 
 const Footer = () => {
   const listTitles = ['Shop and Learn','Apple Wallet','Account','Entertainment','Apple Store','For Business','For Education', 'For Healthcare','Apple Values','About Apple'];
