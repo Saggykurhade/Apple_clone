@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderStore from './HeaderStore';
-// import Footer from './Footer';
+import Footer from './Footer';
 import './apple.css';
 
 const Store = () => {
@@ -114,8 +114,25 @@ const Store = () => {
                     </div>
                 </div>
 
+                <div className='store-foot-text'>
+                    <div className='store-footer'>
+                        <p>◊◊ Monthly pricing is after purchase using EMI with qualifying cards at 15% pa over a 6 month tenure. Monthly pricing is rounded to the nearest rupee. Exact pricing will be<br/> provided by your bank, subject to your bank’s terms and conditions.</p><br/>
+                        <p>Representative example: Based on purchase of ₹79900.00. Total amount payable ₹83432.00 paid over 6 months as 6 monthly payments of ₹13905.00 at an interest rate of 15%<br/> pa. Total interest paid to bank: ₹3532.00.</p><br/>
+                        <p>§ No-Cost EMI available with the purchase of an eligible product made using eligible cards on 3- or 6-month tenures from most leading banks. Monthly pricing is rounded to the<br/> nearest rupee. Exact pricing will be provided by your bank, subject to your bank’s terms and conditions. Minimum order spend applies as per your card issuing bank threshold.<br/> Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your<br/> card issuing bank. Offer may be revised or withdrawn at any time without any prior notice. https://www.apple.com/in/shop/browse/financing/terms Terms Apply.</p><br/>
+                        <p>Representative example: Based off a 6 month tenure. ₹79900.00 total cost includes 15% pa and No Cost EMI savings of ₹3380.00, paid over 6 months as 6 monthly payments of ₹13317.00.</p><br/>
+                        <p>§§ Instant savings, otherwise referred to as instant cashback, is available with the purchase of an eligible product for qualifying HDFC Bank Credit Cards and EasyEMI Credit<br/> Cards only. Minimum transaction value of ₹10001 applies. Click here to see instant savings amounts and eligible devices. Instant savings are available for up to two orders per<br/> rolling 90-day period with an eligible card. Card eligibility is subject to terms and conditions between you and your card issuing bank. Total transaction value is calculated after<br/> any trade-in credit or eligible discount applied. Any subsequent order adjustment(s) or cancellation(s) may result in instant savings being recalculated, and any refund may be<br/> adjusted to account for instant savings clawback; this may result in no refund being made to you. Offer may be revised or withdrawn at any time without any prior notice.<br/> https://www.apple.com/in/shop/browse/financing/terms Terms Apply. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing.<br/> Multiple separate orders cannot be combined for instant savings.</p><br/>
+                        <p>* Trade-in values will vary based on the condition, year and configuration of your trade-in device, and is computed on Maximum Retail Price. You must be at least 18 years<br/> old to be eligible to trade in for credit. Not all devices are eligible for credit. We only accept MacBook portables for Trade In at our Apple Stores. More details are available<br/> from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. Credit applied towards your new device will be based on<br/> the received device matching the description you provided when your estimate was made and upon validation. Apple reserves the right to refuse or limit the quantity of any<br/> device for any reason.</p>
+                        <p>2. Special pricing available to qualified customers. To learn more about how to start qualifying for special pricing, talk to an Apple Specialist in a store or give us a call on<br/> 000800 040 1966.</p><br/>
+                        <p>° New and qualified returning subscribers only. ₹99/month after free trial. Only one offer per Apple ID and only one offer per family if you’re part of a FamilySharing group,<br/> regardless of the number of devices that you or your family purchase. This offer is not available if you or your Family have previously accepted an Apple TV+ three-months-free<br/> or one-year-free offer. Offer valid for three months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.</p><br/>
+                        <p>⁺ New subscribers only. ₹99/month after trial. Offer available for a limited time to new subscribers who connect an eligible device to an Apple device running iOS 15 or iPadOS 15 or later. Offer valid for three months after eligible device pairing. No audio product purchase necessary for current owners of eligible devices. Plan automatically renews until<br/> cancelled. Restrictions and other terms apply.</p><br/>
+                        <p>‡ Listed pricing is Maximum Retail Price (inclusive of all taxes).</p><br/>
+                        <p>We use your location to show you delivery options faster. We found your location using your IP address or because you entered it during a previous visit to Apple.</p>
+                    </div>
+                    <div className="horizontal-line"></div>
+                </div>
+
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

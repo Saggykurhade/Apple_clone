@@ -1,72 +1,73 @@
-.footer-container{
-    height: 30%;
+.footer-container {
+    height: 50%;
+    width: 65%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer-text {
     width: 100%;
-    text-align: start;
-    background-color: rgb(245,245,247);
+    font-size: 4.5px;
+    margin: auto;
 }
 
-.footer-text{
-    font-size: 0.8em;
+.footer-hr-1 {
     width: 80%;
     margin: auto;
-    padding-top: 1%;
-}
-
-.footer-hr-1{
-    width: 80%;
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    /* margin-top: 1%;
+    margin-bottom: 1%; */
 }
 
 .footer-lists-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     /* height: 20em; */
 }
 
-.footer-lists-container p{
-    font-size: 0.8em;
+.footer-lists-container p {
+    font-size: 4.5px;
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: start;
 }
 
-.footer-lists-container p:hover{
+.footer-lists-container p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.footer-single-list-container{
+.footer-single-list-container {
     width: 20%;
+    font-size: 6px;
 }
 
-.footer-bottom-div{
+.footer-bottom-div {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-bottom-div ul{
+.footer-bottom-div ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     width: 35%;
 }
 
-.footer-bottom-div ul > li{
+.footer-bottom-div ul>li {
     border-right: 1px solid black;
     padding-right: 2%;
 }
 
-.bold-and-underline{
+.bold-and-underline {
     text-decoration: underline;
     font-weight: 500;
 }
 
-.blue-link{
+.blue-link {
     text-decoration: underline;
-    color: rgb(61,137,215);
+    color: rgb(61, 137, 215);
 }

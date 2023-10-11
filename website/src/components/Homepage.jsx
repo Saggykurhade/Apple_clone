@@ -93,14 +93,14 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='slider-content'>
-          <div className='slider-content-box'>
+        <div className='slider-content-home'>
+          <div className='slider-content-box-home'>
             <div><img src="img-1.png" alt="" id='img-1' /></div>
             <div><img src="img-2.png" alt="" id="img-2" /></div>
             <div><img src="img-3.png" alt="" id='img-3' /></div>
             <div><img src="img-4.png" alt="" id='img-4' /></div>
           </div>
-          <div className='slide-btn'>
+          <div className='slide-btn-home'>
             <a href="#img-1"><i class="fa-solid fa-circle"></i></a>
             <a href="#img-2"><i class="fa-solid fa-circle"></i></a>
             <a href="#img-3"><i class="fa-solid fa-circle"></i></a>
