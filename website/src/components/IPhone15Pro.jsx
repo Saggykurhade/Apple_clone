@@ -5,10 +5,10 @@ import './iphone15pro.css';
 
 const IPhone15Pro = () => {
     return (
-        <div id='screen'>
+        <div id='pro-screen'>
             <Header />
 
-            <div className='card'>
+            <div className='pro-card'>
                 <span>Save up to ₹6000.00 instantly on iPhone with HDFC Bank Credit Cards. Plus No Cost EMI from most leading banks.‡ </span>
                 <span>Shop iPhone {'>'}</span>
             </div>

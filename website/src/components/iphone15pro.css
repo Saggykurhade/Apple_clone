@@ -4,12 +4,12 @@
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-#screen {
+#pro-screen {
     background-color: #101010;
     color: white;
 }
 
-.card {
+.pro-card {
     width: 100%;
     height: 13px;
     /* border: 1px solid red; */

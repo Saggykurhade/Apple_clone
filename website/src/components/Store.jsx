@@ -5,7 +5,7 @@ import './apple.css';
 
 const Store = () => {
     return (
-        <div id='screen'>
+        <div id='store-screen'>
             <HeaderStore />
 
             <div id='middle-store'>

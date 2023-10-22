@@ -8,32 +8,32 @@ const Homepage = () => {
     <div id='screen'>
       <Header />
 
-      <div id='middle'>
-
-        <div className='card'>
+      <div className='card'>
           <span>Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards.*</span>
-          <span>Shop now {'>'}</span>
+          <span> Shop now {'>'}</span>
         </div>
+
+      <div id='middle'>
 
         <div className='iphone15pro'>
           <div>
-            <h3>iPhone 15 Pro</h3>
-            <span>Titanium.So Strong.So light.So Pro</span>
-            <p>Learn more {'>'} Buy {'>'}</p>
+            <h1>iPhone 15 Pro</h1>
+            <span>Titanium.So strong.So light.So Pro</span>
+            <pre><p>Learn more {'>'}       Buy {'>'}</p></pre>
           </div>
         </div>
 
         <div className='iphone15'>
           <div>
-            <h3>iPhone 15</h3>
+            <h1>iPhone 15</h1>
             <span>New camera.New design.Newphoria</span>
-            <p>Learn more {'>'} Buy {'>'}</p>
+            <pre><p>Learn more {'>'}     Buy {'>'}</p></pre>
           </div>
         </div>
 
         <div className='watch'>
           <div>
-            <h3>WATCH</h3>
+            <h1>WATCH</h1>
             <p>SERIES 9</p>
             <span>Smarter.Brighter.Mightier.</span>
             <p>Learn more {'>'} Buy {'>'}</p>
@@ -45,18 +45,18 @@ const Homepage = () => {
             <h1>iPad Pro</h1>
             <div className='img-container'>Supercharged by <img style={{ width: '15px' }} src="https://www.apple.com/v/home/be/images/logos/ipad-pro/promo_m2_chip__enw2kz91lsuq_small_2x.png" alt="" />
             </div>
-            <p>Learn more {'>'} Buy {'>'}</p>
+            <pre><p>Learn more {'>'}        Buy {'>'}</p></pre>
           </div>
 
           <div className='wrap-content-2'>
             <div>
-              <div><img style={{ width: '65px', marginLeft: '110px' }} src="https://www.apple.com/v/home/be/images/logos/apple-vision-pro/promo_logo_apple_vision_pro__90zi46p7dc2y_medium_2x.png" alt="" /></div>
+              <div><img style={{ width: '215px', marginLeft: '100px' }} src="https://www.apple.com/v/home/be/images/logos/apple-vision-pro/promo_logo_apple_vision_pro__90zi46p7dc2y_medium_2x.png" alt="" /></div>
               <div>
                 <h3>Welcome to the era of spatial computing</h3>
               </div>
               <p>Available early next year in the U.S</p>
               <div>
-                <p>Learn more {'>'} Buy {'>'}</p>
+                <pre><p>Learn more {'>'}       Buy {'>'}</p></pre>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Homepage = () => {
 
           <div className='wrap-content-5'>
             <div>
-              <div><img style={{ width: '65px', marginLeft: '110px' }} src="https://www.apple.com/v/home/be/images/logos/iphone-tradein/logo_tradein__d1fpktgipvki_small_2x.png" alt="" /></div>
+              <div><img style={{ width: '200px', marginLeft: '260px' }} src="https://www.apple.com/v/home/be/images/logos/iphone-tradein/logo_tradein__d1fpktgipvki_small_2x.png" alt="" /></div>
               <div className='content-wrap-5'><p>Upgrade and save.It's that easy.</p></div>
               <p>Learn more {'>'} Buy {'>'}</p>
             </div>
@@ -88,7 +88,7 @@ const Homepage = () => {
           <div className='wrap-content-6'>
             <div>
               <h1>HomePod mini</h1>
-              <p>Learn more {'>'} Buy {'>'}</p>
+              <pre><p>Learn more {'>'}       Buy {'>'}</p></pre>
             </div>
           </div>
         </div>
