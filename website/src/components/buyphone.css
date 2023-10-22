@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.buy-screen {
+    margin-top: 100px;
+}
+
+.buypg {
+    width: 65%;
+    height: 1000px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.left-buyphone {
+    width: 50%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.right-buyphone {
+    width: 50%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.head {
+    width: 130px;
+    height: 30px;
+    border: 1px solid red;
+    margin: auto;
+    color: black;
+    background-color: gray;
+    border-radius: 15px;
+    padding-top: 7px;
+    padding-left: 25px;
+}
