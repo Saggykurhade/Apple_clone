@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#signinscreen {
+    width: 100%;
+    height: auto;
+}
+
+#signincheckout {
+    width: fit-content;
+    /* border: 1px solid red; */
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 280px;
+    margin-top: 40px;
+}
+
+#signintoapple {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 90px;
+    font-size: 25px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    color: #494949;
+    margin-left: 625px;
+}
+
+#email {
+    /* border: 1px solid red; */
+    width: 32%;
+    border-radius: 10px;
+    margin: auto;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#email input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#password {
+    /* border: 1px solid red; */
+    width: 32%;
+    border-radius: 10px;
+    margin: auto;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#password input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#rememberme {
+    width: 20%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#checkboxre {
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+#rem {
+    line-height: 1.16667;
+    font-weight: 500;
+    letter-spacing: .009em;
+    color: #494949;
+    font-size: 18px;
+}
+
+#forget {
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: auto;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #3787d7;
+    /* font-size: 14px; */
+    line-height: 1.42859;
+    font-weight: 400;
+}
+
+#haveanapple {
+    font-size: 15px;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+#createyours {
+    color: #3787d7;
+}
+
+#createline {
+    border-top: 1px solid rgba(128, 128, 128, 0.537);
+    margin-top: 150px;
+}
+
+#needsome {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 345px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+#needsome :nth-child(2) {
+    color: #3787d7;
+
+}
+
+#last-para {
+    background-color: #f5f5f7;
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    border: 1px solid #f5f5f7;
+}
+
+#lastdiv {
+    height: fit-content;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+#lastline {
+    font-size: 12px;
+    color: #80848b;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+
+#policy {
+    font-size: 13px;
+    text-decoration: underline;
+    color: black;
+}
+
+#secline {
+    border-top: 1px solid rgba(128, 128, 128, 0.537);
+    width: 60%;
+    margin-left: 340px;
+    margin-top: 25px;
+}
+
+#findan {
+    color: #3787d7;
+    text-decoration: underline;
+}
+
+#retailer {
+    color: #3787d7;
+    text-decoration: underline;
+}
+
+#moreshop {
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-left: 340px;
+    font-size: 12px;
+    color: #80848b;
+
+}
+
+#copyright {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 43%;
+    justify-content: space-between;
+    margin-left: 340px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #80848b;
+}
+
+.privacy {
+    font-size: 13px;
+    text-decoration: underline;
+    color: black;
+    padding-right: 20px;
+}
+
+#india {
+    color: #77787a;
+    font-size: 12px;
+    margin-left: 80.5%;
+    margin-top: -17px;
+}
