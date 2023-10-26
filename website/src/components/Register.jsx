@@ -23,10 +23,12 @@ const Register = () => {
                 <div className='apple-reg-innerbody'>
                     <h1 className='apple-reg-top-h1'>Create Your Apple ID</h1>
                     <span className='apple-reg-top-span'>One Apple ID is all you need to access all Apple services.</span>
+
                     <div className='apple-reg-name'>
-                        <input placeholder='first name' />
-                        <input placeholder='last name' />
+                        <input placeholder='First name' />
+                        <input placeholder='Last name' />
                     </div>
+
                     <p className='apple-reg-country-p'>COUNTRY / REGION</p>
                     <select className='apple-select'>
                         <option value="volvo">India</option>
@@ -34,20 +36,23 @@ const Register = () => {
                         <option value="mercedes">United Kingdom</option>
                         <option value="audi">China</option>
                     </select>
+
                     <input type='date' className='apple-reg-date' />
                 </div>
+
                 <h1 className='apple-reg-line'></h1>
+
                 <div className='apple-reg-innerbodytwo'>
                     <div id='nameex'>
                         <input type="text" placeholder='name@example.com' />
                         <span>This will be your new Apple ID.</span>
                         <input type="password" placeholder='password' />
                         <input type="password" placeholder='confirm password' />
-
                     </div>
-
                 </div>
-                <h1 className='apple-reg-line'></h1>
+
+                <h1 className='apple-reg-line-2'></h1>
+
                 <div className='apple-reg-innerbodytwo'>
                     <div id='nameex'>
                         <select className='apple-select'>
@@ -56,16 +61,19 @@ const Register = () => {
                             <option value="mercedes">+44 (United Kingdom)</option>
                             <option value="audi">+83 (China mainland)</option>
                         </select>
-                        <input id='numberch' type="number" placeholder='phone number' />
-                        <div id='makesurediv'>Make sure you enter a phone number you can always access. It <br /> will be used to verify your identity any time you sign in on a new <br />device or web browser. Messaging or data rates may apply.</div>
+                        <input id='numberch' type="number" placeholder='Phone number' />
+                        <div id='makesurediv'>Be sure to enter a phone number you can always access. It will<br/> be used to verify your identity any time you sign in on a<br/> new device or web browser. Messaging or data rates may apply.</div>
+
                         <div id='checkmaindiv'>
-                            <div>Verify with a:</div>
-                            <div><input type="radio" />Text message</div>
-                            <div><input type="radio" />Phone call</div>
+                            <div>Verify with:</div>
+                            <div><input type="radio"/>Text message</div>
+                            <div><input type="radio"/>Phone call</div>
                         </div>
                     </div>
                 </div>
+
                 <h1 className='apple-reg-line'></h1>
+
                 <div id='announce'>
                     <div id='announceone'>
                         <input type="checkbox" />
