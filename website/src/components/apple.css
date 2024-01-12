@@ -393,8 +393,8 @@
 
 #middle-store {
     width: 100%;
-    height: 3040px;
-    border: 1px solid red;
+    height: 2715px;
+    /* border: 1px solid red; */
 }
 
 .store-top {
@@ -582,7 +582,6 @@
     height: 210px;
     margin: 15px;
     /* border: 1px solid red; */
-    /* border: 1px solid red; */
     background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626384443000");
     background-size: 100% 100%;
     border-radius: 10px;
@@ -605,31 +604,33 @@
 
 .quick-link {
     width: 83%;
-    height: 15px;
+    height: 50px;
     /* border: 1px solid red; */
     text-align: left;
-    padding-top: 20px;
+    padding-top: 5px;
     margin: auto;
-    font-size: 11px;
+    font-size: 28px;
+    margin-top: 50px;
 }
 
 .quick-link-container>div {
     width: 83%;
-    height: 22px;
+    height: 50px;
     /* border: 1px solid black; */
     margin: auto;
+    padding-top: 10px;
 }
 
 .quick-link-btn {
     width: auto;
     height: auto;
-    font-size: 6px;
-    padding: 3px 5px;
-    padding-top: 3px;
+    font-size: 14px;
+    padding: 10px 10px;
+    padding-top: 10px;
     border: none;
     outline: none;
     background-color: rgb(229, 226, 226);
-    margin-right: 8px;
+    margin-right: 15px;
     border-radius: 20px;
 }
 
@@ -647,15 +648,15 @@
 
 .store-footer {
     width: 65%;
-    height: 250px;
+    height: 750px;
     /* border: 1px solid red; */
-    font-size: 4.5px;
+    font-size: 12px;
     margin: auto;
     color: rgb(122, 121, 121);
     text-align: left;
-    padding-top: 5px;
     word-spacing: 1.5px;
-    line-height: 6px;
+    line-height: 18px;
+    margin-top: 25px;
 }
 
 .horizontal-line {
