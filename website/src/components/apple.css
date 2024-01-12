@@ -28,8 +28,8 @@
 
 #middle {
     width: 100%;
-    height: 5000px;
-    border: 1px solid red;
+    height: 4435.2px;
+    /* border: 1px solid red; */
 }
 
 .iphone15pro {
@@ -344,7 +344,7 @@
 
 .home-foot-text {
     width: 100%;
-    height: 62px;
+    height: 200px;
     /* border: 1px solid black; */
     margin-top:15px;
     background-color: #f5f5f7;
@@ -352,15 +352,15 @@
 
 .home-footer {
     width: 65%;
-    height: 55px;
+    height: 195px;
     /* border: 1px solid red; */
-    font-size: 4.5px;
+    font-size: 12px;
     margin: auto;
     color: rgb(122, 121, 121);
     text-align: left;
     padding-top: 5px;
-    word-spacing: 1.5px;
-    line-height: 6px;
+    word-spacing: 0.2px;
+    line-height: 18px;
 }
 
 .horizontal-line {
@@ -378,13 +378,13 @@
 
 .card-store {
     width: 100%;
-    height: 59px;
+    height: 40px;
     /* border: 1px solid red; */
     background-color: white;
     color: black;
-    font-size: 5.5px;
+    font-size: 15px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .card-store span:nth-child(2) {
@@ -393,62 +393,65 @@
 
 #middle-store {
     width: 100%;
-    height: 1040px;
-    /* border: 1px solid red; */
+    height: 3040px;
+    border: 1px solid red;
 }
 
 .store-top {
     width: 83%;
+    height: 200px;
     /* border: 1px solid red; */
     margin: auto;
     display: flex;
+    margin-top: 50px;
 }
 
 .top-left {
-    width: 60%;
-    height: 70px;
+    width: 63.5%;
+    height: 135px;
     /* border: 1px solid green; */
     display: flex;
 }
 
 .top-left>div {
     width: 90%;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .top-left p {
     color: grey;
-    font-size: 18px;
+    font-size: 48px;
 }
 
 .top-left span {
     color: rgb(5, 4, 4);
-    font-size: 18px;
+    font-size: 48px;
 }
 
 .top-right {
-    width: 40%;
-    height: 70px;
+    width: 37%;
+    height: 135px;
     /* border: 1px solid red; */
     display: flex;
     justify-content: end;
     align-items: end;
-    line-height: 7px;
+    line-height: 28px;
 }
 
 .top-right i {
     color: grey;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .refer {
-    font-size: 6px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .btn-2 {
-    font-size: 6px;
+    font-size: 16px;
     color: rgb(128, 128, 248);
     background-color: transparent;
     border: none;
@@ -457,17 +460,22 @@
 
 .slider-content {
     width: 83%;
-    height: 70px;
+    height: 150px;
     /* border: 1px solid green; */
     margin: auto;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
     font-weight: 600;
-    font-size: 5.5px;
+    font-size: 13px;
     object-fit: cover;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
+}
+
+.store-cat {
+    padding-left: 26px;
+    padding-top: 10px;
 }
 
 .slider-content::-webkit-scrollbar {
@@ -476,9 +484,9 @@
 }
 
 .slide-imgs {
-    width: 47px;
-    height: 40px;
-    padding-left: 4px;
+    width: 100px;
+    height: 95px;
+    padding-left: 26px;
     /* border: 1px solid black */
 }
 
@@ -486,12 +494,13 @@
     width: 83%;
     height: auto;
     margin: auto;
-    font-size: 11px;
+    font-size: 28px;
     font-weight: bold;
     /* border: 1px solid red; */
     text-align: left;
     color: grey;
-    padding-top: 13px;
+    padding-top: 10px;
+    margin-top: 80px;
 }
 
 .title span {
@@ -501,7 +510,9 @@
 .content-slide {
     width: 91%;
     height: auto;
-    margin-left: 51px;
+    margin: auto;
+    margin-left: 123px;
+    padding-top: 10px;
     /* border: 1px solid red; */
     display: flex;
     overflow-x: scroll;
@@ -509,10 +520,10 @@
 }
 
 .content-slide-box {
-    width: 27vw;
-    height: 71vh;
+    width: 32vw;
+    height: 70vh;
     margin: 10px;
-    margin-left: 0px;
+    margin-left: 10px;
     /* border: 1px solid red; */
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgb(203, 201, 201);
@@ -534,7 +545,7 @@
     width: 32vw;
     height: 71vh;
     margin: 10px;
-    margin-left: 0px;
+    margin-left: 10px;
     /* border: 1px solid red; */
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgb(203, 201, 201);
@@ -543,7 +554,6 @@
 .content-slide-box-3 {
     width: 32vw;
     height: 71vh;
-    margin-left: 0px;
     margin: 10px;
     /* border: 1px solid red; */
     border-radius: 10px;

@@ -1,9 +1,13 @@
+.footer-col {
+    background-color: #f5f5f7;
+}
+
 .footer-container {
-    height: 40%;
     width: 65%;
+    height: 40%;
     /* border: 1px solid red; */
     margin: auto;
-    margin-top: 10px;
+    background-color: #f5f5f7;
 }
 
 .footer-text {
